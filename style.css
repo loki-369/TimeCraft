@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Time + Mon-Fri */
+  border: 1px solid #ccc;
+}
+
+.header {
+  background: #ddd;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.cell {
+  border: 1px solid #ccc;
+  min-height: 40px;
+  padding: 4px;
+  font-size: 12px;
+}
